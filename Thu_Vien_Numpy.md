@@ -30,4 +30,24 @@
 - `shape`: Kích thước của mảng.
 - `size`: Số phần tử trong mảng.
 - `ndim`: Số chiều của mảng.
-### Truy cập phần tử trong 
+### Truy cập phần tử trong mảng
+- `arr[i]`: truy cập phần tử thứ i của mảng 1 chiều
+- `arr1[i,j]`: Truy cập phần tử hàng i, cột j của mảng 2 chiều.
+- `arr2[n,i,j]`: Truy cập phần tử chiều n, hàng i, cột j của mảng 3 chiều.
+- `arr[a:b]`: Truy cập các phần tử từ a đến b-1 trong mảng 1 chiều.
+- `arr1[:,:i]`: Truy cập phần tử từ cột 0 đến cột i-1, của tất cả các hàng trong mảng 2 chiều.
+### Đọc mảng từ file
+- Giả sử có file như hình:
+
+![image](https://user-images.githubusercontent.com/88178841/162199612-17e7bbfe-8faa-4285-aa9a-299a3c474242.png)
+- `diem_2a = np.loadtxt('Diem_2A.txt', dtype = int, delimiter=',')` 
+- `print("File dữ liệu điểm lớp 2A:\n", diem_2a)`
+- ở đây tất cả phần tử là số nguyên nên mình để kiểu int cho dễ nhìn, các phần tử phân tách nhau bởi dấu ","
+### Các hàm thống kê
+- `arr.max() hoặc np.max(arr)`: Lấy giá trị lớn nhất của mảng arr.
+- `arr.min() hoặc np.min(arr)`: Lấy giá trị nhỏ nhất của mảng arr.
+- `arr.sum() hoặc np.sum(arr)`: Tổng tất cả các phần tử trong mảng arr.
+- `arr.mean() hoặc np.mean(arr)`: Trung bình cộng của tất cả các phần tử trong mảng arr.
+- `np.median(arr)`: Trả về giá trị trung vị của mảng arr.
+
+##### Link bài viết tham khảo: https://codelearn.io/sharing/tim-hieu-thu-vien-numpy-trong-python
