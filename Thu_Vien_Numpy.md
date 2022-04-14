@@ -1,5 +1,5 @@
 - Là thư viện toán học -> làm việc với ma trận và mảng lớn
-# 1. Cài đạt thư viện
+# 1. Cài đăt thư viện
 - Mở cmd -> gõ lệnh `pip install numpy`
 # 2. Thao tác
 ## a. Khai báo thư viện
@@ -51,3 +51,12 @@
 - `np.median(arr)`: Trả về giá trị trung vị của mảng arr.
 
 ##### Link bài viết tham khảo: https://codelearn.io/sharing/tim-hieu-thu-vien-numpy-trong-python
+
+# 3. Cú pháp của Numpy linspace()
+`np.linspace(start, stop, num, endpoint, retstep, dtype, axis)`
+- `start & stop`: điểm đầu và điểm cuối của khoản cách
+- `num`: số điểm cách đều nhau, giá trị mặc định là 50
+- `endpoint`: tham số tùy chọn có thể là `True` hoặc `False`, giá trị mặc định là True (bao gồm điểm kết thúc), đặt thành False để loại bỏ điểm kết thúc
+- `retstep`: thâm số tùy chọn nhận `Booleans`, khi đặt thành True giá trị bước được trả về
+- `dtype`: kiểu dữ liệu
+- `axis`: tham số tùy chọn biểu thi trục các số được lưu trữ
