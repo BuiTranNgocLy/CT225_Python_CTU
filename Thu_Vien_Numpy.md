@@ -60,3 +60,16 @@
 - `retstep`: thâm số tùy chọn nhận `Booleans`, khi đặt thành True giá trị bước được trả về
 - `dtype`: kiểu dữ liệu
 - `axis`: tham số tùy chọn biểu thi trục các số được lưu trữ
+# 4. Numpy.arange()
+- Returns an array `with evenly` spaced elements as the interval
+- `start`: start os interval range
+- `stop`: end of interval range
+- `step`: step size of interval
+- `dtype`: type of output array
+- Ex:
+
+![image](https://user-images.githubusercontent.com/88178841/163549315-064505e9-8880-4b2e-b91d-6e9ef6e7f868.png)
+- Output:
+
+![image](https://user-images.githubusercontent.com/88178841/163549442-7e2022d6-fec1-4836-93ef-9d82b14bd867.png)
+
